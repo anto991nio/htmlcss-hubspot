@@ -148,6 +148,7 @@ h1{
     color: rgb(50,73,91);
     border-radius: 10px;
     padding: 40px;
+    margin-bottom: 30px;
 }
 
 .free > div{
@@ -197,6 +198,49 @@ h1{
     vertical-align: middle;
     margin: 0 10px;
 }
+
+.column{
+    width: 30%;
+    background-color: white;
+    text-align: center;
+    padding: 20px 30px;
+    border-radius: 10px;
+    color: rgb(50,73,91);
+}
+
+.column.two{
+    margin: 0 5%;
+}
+
+
+.column > img{
+    width: 100px;  
+    height: 105px;
+}
+
+.column > p{
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+
+.column > hr {
+    margin-bottom: 30px;
+}
+
+.column >ul{
+    list-style: none;
+    text-align: left;
+    margin: 50px 0;
+}
+
+.column >.btnorange{
+    display: inline-block;
+}
+
+.tabella{
+    
+}
+
 
 
 
