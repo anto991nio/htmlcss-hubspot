@@ -130,6 +130,7 @@ h1{
 .cubo{
     text-align: center;
     color: rgb(50,73,91);
+    margin-bottom: 40px;
 }
 
 .cubo > img{
@@ -144,18 +145,58 @@ h1{
 .free{
     background-color: white;
     position: relative;
+    color: rgb(50,73,91);
+    border-radius: 10px;
+    padding: 40px;
+}
+
+.free > div{
+    position: relative;
 }
 
 .wrapperfree{
     position: relative;
     width: 30%;
+    text-align: center;
+
 }
 
 
 .free img{
     width: 150px;
     margin-bottom: 30px;
-    
 }
+
+.free h3{
+    font-size: 20px;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.free p{
+    margin-bottom: 30px;
+}
+
+#linea{
+    display: inline-block;
+    width: 60%;
+    vertical-align: middle;
+    margin-left: 30px;
+}
+
+.check{
+    background-color:rgb(254, 119, 90);
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+    font-size: 10px;
+    line-height: 15px;
+    vertical-align: middle;
+    margin: 0 10px;
+}
+
 
 
