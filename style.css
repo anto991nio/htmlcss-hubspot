@@ -111,3 +111,27 @@ h1{
     margin-top: 30px;
     font-size: 12px;
 }
+
+.middlebar{
+    height: 90px;
+    background-color: rgb(175, 235, 228);
+    border-top: 3px solid; 
+    border-bottom: 3px solid;
+    border-color: rgb(51, 71, 91);
+
+}
+
+.corpo{
+    background-color: rgb(244, 249, 253);
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.cubo{
+    text-align: center;
+    color: rgb(50,73,91);
+}
+
+.cubo > img{
+    width: 300px;
+}
