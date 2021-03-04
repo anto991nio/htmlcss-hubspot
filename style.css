@@ -93,7 +93,7 @@ nav{
     margin-bottom: 40px;
 }
 
-.wrapperhero > p{
+.lineatesto{
     line-height: 30px;
 }
 
@@ -135,3 +135,27 @@ h1{
 .cubo > img{
     width: 300px;
 }
+
+.cubo > h3{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.free{
+    background-color: white;
+    position: relative;
+}
+
+.wrapperfree{
+    position: relative;
+    width: 30%;
+}
+
+
+.free img{
+    width: 150px;
+    margin-bottom: 30px;
+    
+}
+
+
