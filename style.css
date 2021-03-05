@@ -15,6 +15,7 @@ a{
 .container{
     margin: auto;
     width: 1024px;
+    position: relative;
 }
 
 .lingua{
@@ -80,7 +81,6 @@ nav{
     height: 700px;
     position: relative;
     background-image: url(jumbotron.png);
-    background-position-y:-100px;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -107,7 +107,7 @@ h1{
     padding: 20px;
 }
 
-.paragrafohero{
+.paragrafo{
     margin-top: 30px;
     font-size: 12px;
 }
@@ -281,11 +281,47 @@ h1{
 .tabella  .clearfix{
     margin-top: 40px;
 }
+.wrapplogs{
+    color: rgb(50,73,91);
+    padding-bottom: 40px ;
+}
+.wrapplogs > .f-left{
+    width: 30%;
+    padding: 40px;
+}
+.wrapplogs h3{
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+.wrapplogs > .f-right{
+    width: 70%;
+    padding: 40px;
+}
+.wrapplogs img{
+    width: 150px;
+    padding: 10px;
+    vertical-align: middle;
+    
+}
+#donna{
+    position: absolute;
+    right: 0;
+    top: -50px;
+    width: 350px;
+}
+
+.wrapplogs h2{
+    font-size: 30px;
+    margin: 30px 0;
+}
+
+.wrapplogs .btnorange{
+    margin: 50px 0px;
+    display: inline-block
+}
 
 
-
-
-
+    
 
 
 
