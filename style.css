@@ -78,7 +78,7 @@ nav{
 }
 
 .hero{
-    height: 700px;
+
     position: relative;
     background-image: url(jumbotron.png);
     background-repeat: no-repeat;
@@ -87,6 +87,7 @@ nav{
 .wrapperhero{
     width: 50%;
     padding-top: 80px;
+    padding-bottom: 160px;
 }
 
 .wrapperhero >*{
@@ -261,6 +262,9 @@ h1{
     border-left: none;
 }
 
+.middletable img{
+    height: 33px;
+}
 
 .middletable >*{
     margin: 10px 0;
@@ -342,17 +346,19 @@ footer > div > ul > li >a{
 ul  img{
     height: 20px;
     margin-right: 20px;
-    margin-top: 30px;
-    margin-bottom: 40px;
+    
+    
 }
 
 .btnfooter{
     background-color: rgb(218, 222, 224);
     padding: 10px;
-    margin: 20px 0;
+    margin: 20px 0 0 0;
     display: inline-block;
     color: rgb(50, 73, 91) ;
     border-radius: 10px;
+    margin-bottom: 20px;
+    
 }
 
 .lingua{
